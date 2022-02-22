@@ -1,7 +1,7 @@
 from random import *
 
 class Dado:
-    caras = 10
+    caras = 10 # definimos el atributo caras como un atributo de la clase Dado
     
     def __init__(self, caras):
         self.caras = caras

@@ -61,7 +61,7 @@ class Tablero:
         print("\n")
     
          
-    def avanzar(self):
+    def avanzar(self): # avanzar las fichas en el tablero y mostrar el resultado
         for ficha in self.fichas:
             ficha.avanzar()
         return self.fichas
