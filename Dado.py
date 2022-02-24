@@ -12,6 +12,3 @@ class Dado:
             resultado = randint(1, self.caras)
         return resultado
      
-    #Porque solo me tira de 1 a 6? Porque el dado tiene 6 caras y el random lo hace de 1 a 6
-     
-     
